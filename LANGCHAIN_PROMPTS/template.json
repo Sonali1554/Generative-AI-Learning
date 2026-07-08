@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length",
+        "paper",
+        "style"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nPlease summarize the research paper titled \"{paper}\".\n\nExplanation Style: {style}\n\nExplanation Length: {length}\n\nRequirements:\n\n1. Mathematical Details:\n   - Include relevant mathematical equations if present.\n   - Explain mathematical concepts in simple language.\n\n2. Analogies:\n   - Use relatable analogies to simplify complex ideas.\n\n3. Applications:\n   - Mention practical applications and real-world use cases.\n\n4. Key Contributions:\n   - Highlight the main innovations introduced by the paper.\n\n5. Limitations:\n   - Mention important limitations if applicable.\n\nIf sufficient information is unavailable, respond with:\n\"Insufficient information available.\"\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
